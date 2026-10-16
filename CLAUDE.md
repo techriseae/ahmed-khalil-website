@@ -18,3 +18,13 @@ Approved design: polished personal consultant portfolio. Dark navy-to-purple pho
 ## Run
 npm install && npm run dev
 npm run build
+
+## Visual QA against Ahmed's approved reference
+The current screenshot shows an oversized flat purple portrait placeholder. The correct approved concept uses Ahmed's **real** headshot, integrated with the hero photo composition, a floating Odoo dashboard, and a more polished full-page portfolio. Match the reference screenshot from the user's ChatGPT conversation, not the placeholder. The real photo was provided by Ahmed in the ChatGPT conversation as `1725186363695.jpeg` (400×400) and should be placed at `public/ahmed-original.jpeg`. Never use another person's portrait. Until the photo is available in the repository, a fallback exists to prevent a broken image icon.
+
+### Delivery acceptance
+1. Hero visually aligns with reference at desktop 1440px and mobile 390px.
+2. Real portrait loads (not purple fallback).
+3. Every section and language switch works, theme toggle works.
+4. No fake customer endorsements, fake financial statistics or invented contact links.
+5. `npm run build` passes.
